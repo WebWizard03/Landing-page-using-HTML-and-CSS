@@ -1,0 +1,157 @@
+
+.left{
+    display: inline-block;
+    left: 34px;
+    top: 20px;
+}
+.left img{
+    width: 60px;
+}
+.left div{
+    text-align: center;
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+    color: black;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 10px;
+}
+.navbar{
+    display: inline-block;
+}   
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 18px;
+    font-family: cursive;
+    font-size:large;
+}
+.navbar li a:hover, .navbar li a:active{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+.btn{
+    margin: 0px 9px;
+    padding: 5px 15px;
+    border: 2px solid brown;
+    border-radius: 15px;
+}
+.btn:hover{
+    background-color: rgb(255, 113, 47);
+}
+.container{
+    text-align: center;
+    margin: 2px 2px;
+    padding: 2px 2px;
+    border-radius: 5px;
+}
+.form-group input{
+    text-align: center;
+    width: 340px;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    width: 80px;
+    margin: auto;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cont{
+    width: 400px;
+    height: 195px;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 20px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition:opacity 0.4s ease-in-out;
+    background: black;
+    cursor: pointer;
+}
+.content
+{
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    transform: translate(-50%,-50%);
+}
+.cont:hover .overlay
+{
+    opacity: 0.8;
+}
+
+
+.cont1{
+    width: 400px;
+    height: 195px;
+    position: absolute;
+    top: 75%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 20px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.overlay1
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition:opacity 0.4s ease-in-out;
+    background: black;
+    cursor: pointer;
+}
+.content1
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    transform: translate(-50%,-50%);
+}
+.cont1:hover .overlay1
+{
+    opacity: 0.8;
+}
+
